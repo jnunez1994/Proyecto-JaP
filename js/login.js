@@ -17,11 +17,11 @@ function verificar (){
     } else{
 
         location.href="index.html";
-        //usuario.nombre= dato.value;
-        //usuario.estado= "Conectado";
+        usuario.nombre= dato.value;
+        usuario.estado= "Conectado";
 
-        //localStorage.setItem('usuario',JSON.stringify(usuario));
-       // sessionStorage.setItem('usuario',JSON.stringify(usuario));
+        localStorage.setItem('usuario',JSON.stringify(usuario));
+       sessionStorage.setItem('usuario',JSON.stringify(usuario));
 
     }
 
